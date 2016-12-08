@@ -18,7 +18,7 @@ h1 {
 .socialMedias a {
 	color: #ffffff;
 	font-size: 40px;
-	padding-left: 50px;
+	padding: 0 40px;
 }
 @media screen and (max-width:500px) {
 	h1 {
