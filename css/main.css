@@ -1,0 +1,46 @@
+body {
+	background-color: #1E98F3;
+	font-family: 'Architects Daughter';
+}
+.totalWrap {
+	vertical-align: middle;
+	margin-top: 17%;
+}
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 80px;
+	letter-spacing: 3px;
+}
+.socialMedias {
+	text-align: center;
+}
+.socialMedias a {
+	color: #ffffff;
+	font-size: 40px;
+	padding-left: 50px;
+}
+@media screen and (max-width:500px) {
+	h1 {
+		font-size: 45px;
+	}
+}
+@media screen and (min-width:900px) and (max-width:1100px)  {
+	.totalWrap {
+		margin-top: 25%;
+	}
+}
+@media screen and (min-width:501px) and (max-width:700px)  {
+	.totalWrap {
+		margin-top: 40%;
+	}
+}@media screen and (min-width:701px) and (max-width:899px)  {
+	.totalWrap {
+		margin-top: 35%;
+	}
+}
+@media screen and (min-width:320px) and (max-width:500px)  {
+	.totalWrap {
+		margin-top: 60%;
+	}
+}
