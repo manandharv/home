@@ -1,83 +1,189 @@
-body {
-	background-color: #1E98F3;
-	font-family: 'Architects Daughter';
-}
-.totalWrap {
-	vertical-align: middle;
-	margin-top: 17%;
-}
-h1 {
-	text-align: center;
-	color: #ffffff;
-	font-size: 80px;
-	letter-spacing: 3px;
-}
-.socialMedias {
-	text-align: center;
-}
-.socialMedias a {
-	color: #ffffff;
-	font-size: 40px;
-	padding: 0 40px;
-}
-@media screen and (max-width:500px) {
-	h1 {
-		font-size: 45px;
-	}
-}
-@media screen and (min-width:900px) and (max-width:1100px)  {
-	.totalWrap {
-		margin-top: 25%;
-	}
-}
-@media screen and (min-width:501px) and (max-width:700px)  {
-	.totalWrap {
-		margin-top: 40%;
-	}
-}@media screen and (min-width:701px) and (max-width:899px)  {
-	.totalWrap {
-		margin-top: 35%;
-	}
+html {
+    height: 100%;
 }
 
-@media screen and (min-width:320px) and (max-width:500px)  {
-	.totalWrap {
-		margin-top: 60%;
-	}
+body {
+    font-family: 'Architects Daughter';
+    background: linear-gradient(199deg, #70e1c4, #8270e1, #e17079, #70e1c4);
+    background-size: 800% 800%;
+    -webkit-animation: BgAnimation 15s ease infinite;
+    -moz-animation: BgAnimation 15s ease infinite;
+    -o-animation: BgAnimation 15s ease infinite;
+    animation: BgAnimation 15s ease infinite;
 }
+
+.totalWrap {
+    vertical-align: middle;
+    margin-top: 17%;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.socialMedia {
+    text-align: center;
+}
+
+.socialMedia a {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0 40px;
+}
+
+@media screen and (max-width:500px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1100px) {
+    .totalWrap {
+        margin-top: 25%;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:700px) {
+    .totalWrap {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:899px) {
+    .totalWrap {
+        margin-top: 35%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+    .totalWrap {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (min-height:300px) and (max-height:450px) {
+    .totalWrap {
+        margin-top: 16%;
+    }
+}
+
+
+/* From https://www.gradient-animator.com/ */
+
+@-webkit-keyframes BgAnimation {
+    0% {
+        background-position: 54% 0%
+    }
+    50% {
+        background-position: 47% 100%
+    }
+    100% {
+        background-position: 54% 0%
+    }
+}
+
+@-moz-keyframes BgAnimation {
+    0% {
+        background-position: 54% 0%
+    }
+    50% {
+        background-position: 47% 100%
+    }
+    100% {
+        background-position: 54% 0%
+    }
+}
+
+@-o-keyframes BgAnimation {
+    0% {
+        background-position: 54% 0%
+    }
+    50% {
+        background-position: 47% 100%
+    }
+    100% {
+        background-position: 54% 0%
+    }
+}
+
+@keyframes BgAnimation {
+    0% {
+        background-position: 54% 0%
+    }
+    50% {
+        background-position: 47% 100%
+    }
+    100% {
+        background-position: 54% 0%
+    }
+}
+
 
 /* From https://codepen.io/NickyCDK/pen/AIonk */
-.wrapper {
-	background: none;
-	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index:1;
-	-webkit-animation: snow 10s linear infinite;
-	-moz-animation: snow 10s linear infinite;
-	-ms-animation: snow 10s linear infinite;
-	animation: snow 10s linear infinite;
-}
+
+
+/*.wrapper {
+    background: none;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}*/
+
 @keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
 }
+
 @-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 400px 1000px, 200px 400px, 100px 300px;
+    }
 }
+
 @-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
 }
+
 @-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}	
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
