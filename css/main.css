@@ -24,6 +24,15 @@ h1 {
     letter-spacing: 3px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+}
+
 .socialMedia {
     text-align: center;
 }
