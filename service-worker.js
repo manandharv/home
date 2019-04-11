@@ -8,6 +8,11 @@ const staticAssets = [
     './images/icons/social/twitter.svg'
 ];
 
+self.addEventListener('install', async event => {
+    const cache = await caches.open('manandharv');
+    cache.addAll(staticAssets);
+});
+
 self.addEventListener('fetch', event => {
     const { request } = event;
     const url = new URL(request.url);
